@@ -58,7 +58,8 @@ function App() {
       />
       <TodoList 
         setTodos={setTodos} 
-        todos={filteredTodos} 
+        todos={filteredTodos}
+        main_todos={todos} 
       />
     </div>
   );
